@@ -1,0 +1,16 @@
+{
+  "name": "edgedb-with-issue",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "run": "tsx .",
+    "migrate": "edgedb migrate --dev-mode",
+    "generate": "generate edgeql-js --target ts"
+  },
+  "dependencies": {
+    "@edgedb/generate": "^0.4.1",
+    "edgedb": "^1.4.1",
+    "tsx": "^4.5.0"
+  }
+}
